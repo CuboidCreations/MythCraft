@@ -1,0 +1,37 @@
+## Player Config
+
+Player:
+  Race: Human
+  MaxHealth: 20
+
+Status:
+  StatusEffects:
+  isVampire: false
+
+Skills:
+  NamedSkills:
+  Vampire:
+    Speed: 1
+  Mertouched:
+    Speed: 1
+  Demon:
+    Warp: 1
+
+PersistentData:
+  Vampire:
+    CurrentSpeed: 0
+    AutoNightVision: true
+    FlightTime: 0
+  Demon:
+    CurrentWarp: 1
+  Altar: false
+  AltarLocation:
+    X:
+    Y:
+    Z:
+    World:
+  Worshippers: 0
+  WorshipperNames:
+  Worshipping: no
+  BloodRotTimer: 12000
+  PolyphagiaTimer: 6000

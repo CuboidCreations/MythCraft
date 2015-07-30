@@ -1,0 +1,19 @@
+config:
+  vampireWorlds: 
+  - world
+  horseWorlds:
+  - world
+  mertouchedWorlds:
+  - world
+  telekinesisBlocks:
+  - 12
+  burnUndeadHorses: true
+
+gods:
+  classes:
+    - Player: 0
+    - Hero: 6
+    - Legend: 16
+    - Demigod: 36
+    - God: 61
+    - Ancient: 91

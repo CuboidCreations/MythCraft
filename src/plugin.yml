@@ -1,0 +1,62 @@
+# MythCraft plugin.yml
+name: MythCraft
+main: com.gmail.Xeiotos.MythCraft.MythCraft
+version: 1.6.2
+softdepend: [WorldGuard, Towny]
+
+commands:
+   MythCraft:
+      description: The main MythCraft command.
+      usage: /MythCraft
+      aliases: MyC
+      permission: MythCraft.MythCraft
+      permission-message: You don't have permission to do that!
+      
+permissions:
+    MythCraft.*:
+        description: Gives access to all MythCraft commands.
+        children:
+            MythCraft.user: true
+            MythCraft.admin: true
+            
+    MythCraft.user:
+        description: Gives a player basic user commands.
+        children:
+            MythCraft.info: true
+            MythCraft.tree: true
+            MythCraft.MythCraft: true    
+            MythCraft.vampire: true
+            MythCraft.valkyrie: true
+
+    MythCraft.admin:
+        description: Gives a player admin commands.
+        children:
+            MythCraft.user: true
+            MythCraft.info.others: true
+            MythCraft.tree.others: true
+            
+    MythCraft.vampire:
+        description: Allows the player to use all vampire commands
+        default: true
+    MythCraft.valkyrie:
+        description: Allows the player to use all vampire commands
+        default: true
+
+    MythCraft.MythCraft:
+        description: The main MythCraft command.
+        default: true          
+    MythCraft.info:
+        description: Allows to see MythCraft info.
+        default: true                
+    MythCraft.tree:
+        description: Allows to see the skill tree.
+        default: true
+    MythCraft.tree.others:
+        description: Allows to see the skill tree of others.
+        default: op       
+    MythCraft.status:
+        description: Allows to see your status.
+        default: true
+    MythCraft.status.others:
+        description: Allows to see the status of others.
+        default: op

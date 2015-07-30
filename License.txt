@@ -1,0 +1,1 @@
+Permission is hereby granted to Untwixer to use and distribute the compiled source of MythCraft in any of his plugins.
