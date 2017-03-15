@@ -1,2 +1,1 @@
-Old, outdated code for MythCraft. This plugin has now been recoded.
-
+Old, outdated code for MythCraft made by myself and Chris Soberon (Xeiotos).
