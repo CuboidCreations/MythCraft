@@ -1,1 +1,1 @@
-Old, outdated code for MythCraft made by myself and Chris Soberon (Xeiotos).
+Old, outdated code for MythCraft, an RPG plugin made for the Bukkit API by myself and Chris Soberon (Xeiotos).
