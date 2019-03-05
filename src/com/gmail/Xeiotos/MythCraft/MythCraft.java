@@ -84,7 +84,7 @@ public final class MythCraft extends JavaPlugin {
             burn.runTaskTimer(this, 20L, 10L);
         }
         
-        //Recepies
+        //Recipes
         ShapelessRecipe grinderRecipe = new ShapelessRecipe(new ItemStack(Material.POTION, 1, (short) 16495)).addIngredient(Material.POTION, 4335).addIngredient(Material.SULPHUR);
         getServer().addRecipe(grinderRecipe);
         
